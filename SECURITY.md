@@ -2,17 +2,17 @@
 
 ## Supported Versions
 
-| Version | Supported          |
-|---------|--------------------|
-| Latest major | ✅ |
+| Version      | Supported          |
+| ------------ | ------------------ |
+| Latest major | ✅                 |
 | Older majors | Per project policy |
 
 ## Reporting a Vulnerability
 
 Please **do not** open a public issue for security vulnerabilities. Report them privately:
 
-- **Email**: [Add your security contact email here]
-- **Contact**: [GitHub username(s) or team]
+- **Email**: [mailto:support@pelagornis.com]
+- **Contact**: [http://github.com/pelagornis]
 
 We will review and respond as quickly as we can.
 

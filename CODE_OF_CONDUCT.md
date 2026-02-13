@@ -31,4 +31,5 @@ If you witness or experience unacceptable behavior, please contact the project m
 
 ---
 
-*Add your contact details (email, GitHub handles) here as needed for your project.*
+- **Email**: [mailto:support@pelagornis.com]
+- **Contact**: [http://github.com/pelagornis]
