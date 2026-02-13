@@ -1,20 +1,23 @@
 ## Summary
 
-> Describe here the purpose of your PR.
+> Briefly describe the purpose and scope of this PR.
 
 ## Type of change
 
-- [ ] feat: adds a new feature.
-- [ ] fix: fixes a bug.
-- [ ] docs: changes to the documentation.
-- [ ] test: adding missing tests.
-- [ ] refactor: refactoring production code.
+- [ ] feat: new feature
+- [ ] fix: bug fix
+- [ ] docs: documentation only
+- [ ] test: adding or updating tests
+- [ ] refactor: code change with no behavior change
+- [ ] chore: build, config, or tooling
 
 ## How did you test this change?
 
+> Describe how you verified your changes locally.
+
 ## Additional Information
 
-Any additional information or context to provide reviewers of this pull request.
+> Any extra context for reviewers.
 
 ---
 

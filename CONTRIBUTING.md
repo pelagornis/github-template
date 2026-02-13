@@ -1,39 +1,43 @@
-# Contributing to Pelagornis
+# Contributing
 
-Thank you for your interest in contributing to Pelagornis! We welcome contributions of all kinds. Please read the following guidelines to ensure a smooth collaboration.
+Thank you for your interest in contributing. Please follow the guidelines below so we can collaborate smoothly.
+
+## Getting Started
+
+1. Fork the repository.
+2. Clone it locally and create a feature branch. (`git checkout -b feature/amazing-thing`)
+3. Commit your changes with meaningful commit messages.
+4. Push your branch and open a Pull Request.
 
 ## Development
 
+- Describe how to run and test the project locally in this section.
+- Add links to your tech stack and style guide if you have them.
 
 ## Releasing
 
-To create a new release, use the GitHub UI at: [Pelagornis Releases](https://github.com/pelagornis/)
+Create new releases from the **Releases** tab on GitHub.
 
-### Versioning
+### Versioning (Semantic Versioning recommended)
 
-Follow semantic versioning when creating tags:
+- **Major**: Incompatible changes that require users to change their workflow.
+- **Minor**: New features that remain backward compatible.
+- **Patch**: Bug fixes and transparent changes.
 
-- Major version bump: If the update requires users to modify their workflows, increment the major version and note the breaking change in the release notes.
-
-- Minor version bump: If you add a new workflow or an opt-in feature, increment the minor version.
-
-- Patch version bump: If you fix a bug or make a transparent change, increment the patch version.
-
-- Leave the release title blank. If you'd like to add additional details, ensure the version number is included. Use the automatically generated changelog as a starting point and supplement it with any necessary details.
+Include a summary of changes and migration notes in release notes when relevant.
 
 ## Contribution Guidelines
 
 ### Code Style
 
-Follow the [pelagornis styleguide](https://pelagornis.github.io/styleguide/).
+- Follow the [styleguide](https://github.com/pelagornis/styleguide).
+- Write clear, consistent commit messages (e.g. Conventional Commits).
 
-Ensure all commits have meaningful messages.
+### Submitting a Pull Request
 
-### Submitting a PR
+1. Work in a feature branch from your fork.
+2. Describe the purpose and scope of your changes in the PR.
+3. Request review after CI passes.
+4. Update documentation or config if your changes require it.
 
-1. Fork the repository and create a feature branch.
-2. Open a pull request with a clear description of your changes.
-3. Ensure that all tests pass before requesting a review.
-4. Add relevant documentation if necessary.
-
-We appreciate your contributions and look forward to collaborating with you!
+Thank you for contributing.
