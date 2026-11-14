@@ -1,21 +1,16 @@
 # Security Policy
 
-## Supported Versions
-
-| Version      | Supported          |
-| ------------ | ------------------ |
-| Latest major | ✅                 |
-| Older majors | Per project policy |
-
 ## Reporting a Vulnerability
 
-Please **do not** open a public issue for security vulnerabilities. Report them privately:
+Do not report suspected vulnerabilities in public issues. Use the repository’s
+private vulnerability reporting feature when it is enabled, or an approved
+private reporting route published by the project maintainers.
 
-- **Email**: [mailto:support@pelagornis.com]
-- **Contact**: [http://github.com/pelagornis]
-
-We will review and respond as quickly as we can.
+Projects created from this template must define their supported-version policy,
+approved reporting route, and disclosure process before release. This template
+does not invent contact information or response commitments.
 
 ## Disclosure Policy
 
-When a vulnerability is confirmed, we will summarize impact and mitigation and may disclose in line with when a fix is available.
+Coordinate disclosure privately until a fix or mitigation is available, then
+publish an advisory and upgrade guidance according to the project’s policy.

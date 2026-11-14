@@ -1,21 +1,29 @@
-name: Contributing
+name: Repository validation
 
 on:
-  workflow_call:
   pull_request:
-    types: [opened, synchronize]
     paths:
       - "**.md"
       - ".github/**"
+      - ".editorconfig"
+      - ".gitattributes"
+      - ".gitignore"
+      - "AGENTS.md"
 
 jobs:
-  check-contributing-guide:
-    name: Check contributing / docs
+  validate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-      - name: Checkout
-        uses: actions/checkout@v6
-      - name: Validate markdown links (optional)
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - name: Check required template files
         run: |
-          echo "Add your own checks here (e.g. markdownlint, link checker)."
-          exit 0
+          test -f README.md
+          test -f CONTRIBUTING.md
+          test -f LICENSE
+          test -f SECURITY.md
+          test -f AGENTS.md
+          test -f .editorconfig
+          test -f .gitignore
+          test -f .gitattributes

@@ -1,12 +1,11 @@
 name: Bug Report
 description: Report a bug to help us improve
 title: "[Bug] "
-labels: ["type:bug"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to file a bug report.
+        Do not include credentials, personal data, or vulnerability details.
   - type: textarea
     id: what-happened
     attributes:

@@ -1,28 +1,26 @@
-# Repository Name
+# Repository name
 
-> Replace this with a one-line description of what this repository is for.
+> Replace this with a concise description of the project.
 
-## How to Use This Template
+## Use this template
 
-1. To use this repo as a **template**: In GitHub, go to **Settings → General** and check **Template repository**.
-2. Click **Use this template** to create a new repository from this template.
-3. Search and replace placeholders like `REPO_NAME`, `ORG_NAME` using the **Setup guide** below.
-4. Customize `README.md`, `CONTRIBUTING.md`, and issue/PR templates for your project.
-5. Remove what you don't need (e.g. remove the npm block in `.github/dependabot.yml` if you don't use Node).
+1. Select **Use this template** on GitHub and create a new repository.
+2. Update this README, the license, and repository settings for the project.
+3. Review the files in `.github/`; remove or adapt defaults that do not apply.
+4. Add language- and framework-specific tooling in the generated project, not in
+   this universal template.
 
-## Setup Guide (When Using the Template)
+GitHub copies template files at repository creation. Later template changes are
+not automatically applied to generated repositories.
 
-| Placeholder | Description |
-|-------------|-------------|
-| `REPO_NAME` | This repository name (e.g. `my-project`) |
-| `ORG_NAME` | GitHub organization or username (e.g. `my-org`) |
-| `PROJECT_DESCRIPTION` | One-line project description |
+## Engineering standards
 
-## Documentation
+Follow the [Pelagornis Styleguide](https://pelagornis.github.io/styleguide/) and
+the guidance in [AGENTS.md](AGENTS.md). The Styleguide remains the canonical
+source for language standards, Agent Skills, and developer resources.
 
-- [Contributing](CONTRIBUTING.md) — How to contribute, branch strategy, PR process
-- [Code of Conduct](CODE_OF_CONDUCT.md) — Community guidelines for participation
+## Project documents
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
+- [Contributing](CONTRIBUTING.md)
+- [Security policy](SECURITY.md)
+- [License](LICENSE)

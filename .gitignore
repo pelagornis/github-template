@@ -1,0 +1,8 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Local environment files (commit an explicit example file if needed)
+.env
+.env.*
+!.env.example

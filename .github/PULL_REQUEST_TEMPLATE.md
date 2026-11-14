@@ -1,24 +1,15 @@
 ## Summary
 
-> Briefly describe the purpose and scope of this PR.
+<!-- What does this change do and why? -->
 
-## Type of change
+## Testing
 
-- [ ] feat: new feature
-- [ ] fix: bug fix
-- [ ] docs: documentation only
-- [ ] test: adding or updating tests
-- [ ] refactor: code change with no behavior change
-- [ ] chore: build, config, or tooling
+<!-- Commands run and results. -->
 
-## How did you test this change?
+## Documentation impact
 
-> Describe how you verified your changes locally.
+<!-- None, or list documentation updates. -->
 
-## Additional Information
+## Security impact
 
-> Any extra context for reviewers.
-
----
-
-By submitting this pull request, I confirm that my contribution is made under the terms of the project's license.
+<!-- None known, or describe impact without disclosing a vulnerability. -->
